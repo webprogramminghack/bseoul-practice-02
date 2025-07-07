@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class 2 - Table</title>
+  </head>
+  <body>
+    <!-- TABLE -->
+    <table border="1">
+      <tr>
+        <th>No.</th>
+        <th>Nama</th>
+        <th colspan="2">Kelas</th>
+      </tr>
+      <tr>
+        <td rowspan="2" align="center">1</td>
+        <td>Dicky</td>
+        <td>Batch Seoul</td>
+        <td>Batch Jakarta</td>
+      </tr>
+      <tr>
+        <td>Dicky</td>
+        <td>Batch Jakarta</td>
+        <td>Batch Seoul</td>
+      </tr>
+      <tr>
+        <td>2.</td>
+        <td>Naomi</td>
+        <td>Batch Amerika</td>
+        <td>Batch Eropa</td>
+      </tr>
+    </table>
+
+    <br />
+
+    <!-- STRUKTUR SEMANTIC -->
+    <table border="1">
+      <caption>
+        Table 1.1
+      </caption>
+      <thead align="center">
+        <tr>
+          <th rowspan="2">No</th>
+          <th rowspan="2">Produk</th>
+          <th colspan="3">Penjualan</th>
+        </tr>
+        <tr>
+          <th>Januari</th>
+          <th>Februari</th>
+          <th>Maret</th>
+        </tr>
+      </thead>
+      <tbody align="center">
+        <tr>
+          <td>1</td>
+          <td>Aqua</td>
+          <td>100jt</td>
+          <td>200jt</td>
+          <td>50jt</td>
+        </tr>
+      </tbody>
+      <tfoot align="left">
+        <tr>
+          <td></td>
+          <td></td>
+          <td colspan="3">Total Data : 1 Baris</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
