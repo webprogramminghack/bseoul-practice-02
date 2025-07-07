@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class 2 - Formulir</title>
+  </head>
+  <body>
+    <form>
+      <!-- Validation -->
+      <input
+        type="email"
+        placeholder="masukkan email"
+        required
+        maxlength="10"
+      />
+
+      <input
+        type="text"
+        maxlength="10"
+        required
+        placeholder="Masukkan apapun"
+      />
+
+      <br />
+      <br />
+
+      <!-- Labels -->
+      <label for="email">Email : </label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="masukkan email anda"
+      />
+
+      <br />
+      <br />
+
+      <!-- RADIO BUTTON -->
+      <label for="gender">Gender : </label>
+      <label for=""> <input type="radio" name="gender" />Male </label>
+      <label for=""> <input type="radio" name="gender" />Female </label>
+
+      <br />
+      <br />
+
+      <!-- CHECKBOX BUTTON -->
+      <label for="hobby">Hobby : </label>
+      <label for=""> <input type="checkbox" />Basket </label>
+      <input type="checkbox" />Ngoding <input type="checkbox" />Nyari Uang
+      <input type="checkbox" />Investasi
+
+      <br />
+      <br />
+
+      <!-- DROPDOWN (SELECT OPTION) -->
+      <select name="city" id="city">
+        <option value="" disabled selected>Pilih kota mu</option>
+        <option value="jakarta">Jakarta</option>
+        <option value="bali">Bali</option>
+        <option value="padang">Padang</option>
+      </select>
+
+      <br />
+      <br />
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
